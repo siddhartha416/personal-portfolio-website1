@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidhartha's Web Developer Page</title>
+    <!-- Updated Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">Sidhartha</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="darkModeToggle">Switch mode</button> <!-- Dark mode toggle button -->
+    </div>
+
+    <div class="container">
+        <div class="avatar">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRv9uQCEXkQEpwgCkAohNJODEB5LTIATL47XOqmS07K_iXJ2hz3" alt="Sidhartha Avatar">
+        </div>
+        <h1>Hi There, I'm <span>Sidhartha</span></h1>
+        <h2>Welcome to Portfolio..<span class="blinking">|</span></h2>
+        <a href="#" class="about-btn">About Me ↓</a>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/siddhartha-a-78314b245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/siddhartha416"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Siddhartha_146"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.hackerrank.com/profile/21eg105j58"><i class="fab fa-hackerrank"></i></a>
+        </div>
+    </div>
+    <div class="background-pattern"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I'm eager to contribute my skills in coding and ServiceNow to a dynamic software development team. With a passion for problem-solving and continuous learning, I aim to deliver impactful solutions and grow alongside talented professionals. Let's create something great together!</p>    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+            </div>
+            
+            <div class="skill">
+                <img src="data:image/jpeg;base64,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" alt="ServiceNow Logo" style="width: 40px; height: auto;">
+                <h3>ServiceNow</h3>
+            </div> <!-- Added ServiceNow logo -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        
+        <!-- Project 1 -->
+        <div class="project">
+            <h3>PharmaConsult</h3>
+            <p>Developed a web-based platform that provides patients with medical suggestions, symptom-based diagnoses, and appointment bookings.</p>
+            <a href="https://github.com/your-github-link" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>Personal Portfolio website</h3>
+            <p>This personal portfolio website showcases my skills, projects, and experience in coding and ServiceNow. It's a platform to demonstrate my work, highlight my achievements...</p>
+            <a href="https://github.com/your-github-link" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+            <h3>Online Bookstore Application</h3>
+            <p>A full-stack application where users can browse books, add to cart, and make secure payments.</p>
+            <a href="https://github.com/your-github-link" target="_blank">View Project</a>
+        </div>
+
+        <a href="https://github.com/your-github-link" target="_blank" class="view-more-btn">View More Projects</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sidhartha. All rights reserved.</p>
+        <div class="social-icons-footer">
+            <a href="https://www.linkedin.com/in/siddhartha-a-78314b245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/siddhartha416"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Siddhartha_146"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.hackerrank.com/profile/21eg105j58"><i class="fab fa-hackerrank"></i></a>
+        </div>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
